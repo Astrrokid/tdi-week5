@@ -2,4 +2,4 @@
 *.png
 !baseline_model_results.csv
 !baseline_model_report.md
-!path/to/best_model_confusion_matrix.png
+!reports/v1.6_LogisticRegression_confusion_matrix.png

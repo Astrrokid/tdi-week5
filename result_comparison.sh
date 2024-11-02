@@ -15,7 +15,7 @@ data_version=$(echo "$best_model" | awk -F',' '{print $1}')
 model_name=$(echo "$best_model" | awk -F',' '{print $2}')
 f1_score=$(echo "$best_model" | awk -F',' '{print $3}')
 accuracy=$(echo "$best_model" | awk -F',' '{print $4}')
-confusion_matrix_image="$report_dir/${data_version}_${model_name}_confusion_matrix.png"
+confusion_matrix_image="${data_version}_${model_name}_confusion_matrix.png"
 
 # Generate report
 {
