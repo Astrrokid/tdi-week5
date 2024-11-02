@@ -5,4 +5,4 @@
 - **F1-Score**: 0.88
 - **Accuracy**: 0.86
 ### Confusion Matrix
-![Confusion Matrix](LogisticRegression_confusion_matrix.png)
+![Confusion Matrix](reports/LogisticRegression_confusion_matrix.png)
